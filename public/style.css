@@ -1,15 +1,27 @@
 body {
     margin: 0;
-    padding: 0;
-    color: rgba(255, 255, 255, 0.87);
     background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
 }
 
 #app {
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    height: 100vh;
+}
+
+#game-container {
+    margin-top: 20px;
+}
+
+#ui-container {
+    margin-top: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+#score, #moves {
+    margin: 10px;
 }
